@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_horario.css" type="text/css">
+    <title>HORARIO CFGS DAM</title>
+    <script src="./mov.js"></script>
+    <link rel="shortcut icon" href="img/favicon.png">
+</head>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+  <div id="sideNavigation" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a class="letrasMenu" href="index.html">Inicio</a>
+    <a class="letrasMenu" href="horario.html">Horario</a>
+    <a class="letrasMenu" href="contacto.html">Contacto</a>
+</div>
+    
+    <nav class="topnav">
+        <p id="titulo"><b>HORARIO VISITA</b></p>
+        <a href="#" onclick="openNav()">
+            
+        <svg width="30" heigth="30" id="icoOpen">
+            <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+        </svg>
+    </a>
+    </nav>
+    
+    <div id="main">
+    
+        <table id="tabla">
+            <tr>
+              <td id="cuadrado1"></td>
+              <td id="abierto"><br>1<br>͏͏͏͏͏͏</td>
+              <td id="abierto">2</td>
+              <td id="abierto">3</td>
+              <td id="abierto">4</td>
+              <td id="fds">5</td>
+              <td id="fds">6</td>
+              
+            </tr>
+            <tr>
+              <td id="festivo"><br><br>7</td>
+              <td id="abierto">8</td>
+              <td id="abierto">9</td>
+              <td id="festivo">10</td>
+              <td id="abierto">11</td>
+              <td id="fds">12</td>
+              <td id="fds">13</td>
+              
+            </tr>
+            <tr>
+              <td id="abierto"><br><br>14</td>
+              <td id="abierto">15</td>
+              <td id="abierto">16</td>
+              <td id="abierto">17</td>
+              <td id="abierto">18</td>
+              <td id="fds">19</td>
+              <td id="fds">20</td>
+              
+            </tr>
+            <tr>
+              <td id="abierto"><br><br>21</td>
+              <td id="festivo">22</td>
+              <td id="abierto">23</td>
+              <td id="abierto">24</td>
+              <td id="festivo">25</td>
+              <td id="fds">26</td>
+              <td id="fds">27</td>
+            </tr>
+
+            <tr>
+                <td id="abierto"><br><br>28</td>
+                <td id="abierto">29</td>
+                <td id="abierto">30</td>
+                <td id="abierto">31</td>
+            </tr>
+            
+          </table>
+    </div>
+    <div id="leyenda">
+        <p id="titu">Leyenda</p>
+        <p id="elem">
+            • Verde --> Abierto 9:00 - 21:00<br>
+            • Rojo --> Festivo (cerrado)<br>
+            • Amarillo --> Fin de semana (cerrado)
+        </p>
+    </div>
+    </body>
+    
+</html>

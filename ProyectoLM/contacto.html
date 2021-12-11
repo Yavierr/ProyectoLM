@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_contacto.css" type="text/css">
+    <title>Contacto</title>
+    <script src="./mov.js"></script>
+    <link rel="shortcut icon" href="img/favicon.png">
+</head>
+
+<body>
+
+
+    <div id="sideNavigation" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a class="letrasMenu" href="index.html">Inicio</a>
+        <a class="letrasMenu" href="horario.html">Horario</a>
+        <a class="letrasMenu" href="contacto.html">Contacto</a>
+    </div>
+
+    <nav class="topnav">
+        <p id="titulo"><b>Contacto</b></p>
+        <a href="#" onclick="openNav()">
+
+            <svg width="30" heigth="30" id="icoOpen">
+                <path d="M0,5 30,5" stroke="#000" stroke-width="5" />
+                <path d="M0,14 30,14" stroke="#000" stroke-width="5" />
+                <path d="M0,23 30,23" stroke="#000" stroke-width="5" />
+            </svg>
+        </a>
+    </nav>
+
+    <div class="conjunto">
+        <div class="mapa">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3364.8373219050045!2d-4.444866321856777!3d36.72593102839332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2ses!4v1639154823383!5m2!1ses!2ses"
+            width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div id="main">
+
+                <div>
+                    <p>
+                    <h2>Contacte con nosotros.</h2>
+                    </p>
+                    <p>
+                    <h3>Ingrese su gmail y su consulta.</h3>
+                    </p>
+                </div>
+                <form action="action.php">
+                    <p>
+                    <h3>Gmail:<input type="email"></h3>
+                    </p>
+                    <p>
+                    <h3>Género:</h3>
+                    </p>
+                    <p>
+                    <h4>Hombre: <input type="checkbox">
+                        Mujer:<input type="checkbox"><br>
+                        Prefiero no contestar:<input type="checkbox"></h4>
+                    </p>
+                    <p>
+                    <h3>Consulta:</h3><textarea name="consulta" float="left"></textarea>
+                </form>
+    
+            </div>
+        </div>
+        
+    </div>
+
+
+</body>
+
+</html>
